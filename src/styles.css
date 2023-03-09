@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #cbe4de;
+  margin-bottom: 3%;
+  padding: 3%;
+  box-shadow: black 1px 1px 2px;
+}
+
+header h1 {
+  font-family: "Gajraj One", cursive;
+  font-size: 2.5rem;
+}
+
+.icon {
+  width: 20px;
+}
+
+.keyboard {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  border: solid black 2px;
+}
+
+.keyboard-container {
+  display: inline-flex;
+}
+
+.top-button {
+  margin-bottom: 23px;
+}
+
+.button-container {
+  margin-left: 4px;
+}
+
+.octave-note-container {
+  margin-top: 8px;
+}
+
+.keyboard-slice {
+  display: inline-flex;
+  position: relative;
+  font-size: 0;
+  height: 100px;
+  margin: 0;
+}
+
+.key {
+  background-color: white;
+  height: 100%;
+  width: 25px;
+  margin: 0;
+  border: solid black 1px;
+}
+
+.key:hover {
+  filter: invert();
+}
+
+.black-key {
+  background-color: black;
+  height: 65px;
+  width: 2px;
+  position: absolute;
+  z-index: 2;
+}
+
+.black-key:hover {
+  filter: invert();
+}
+
+.c-sharp {
+  left: 18px;
+}
+
+.d-sharp {
+  left: 42px;
+}
+
+.f-sharp {
+  left: 92px;
+}
+
+.g-sharp {
+  left: 118px;
+}
+
+.a-sharp {
+  left: 142px;
+}
+
+footer {
+  margin-top: 6%;
+  padding: 1%;
+}
